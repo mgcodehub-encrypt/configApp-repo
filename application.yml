@@ -1,0 +1,13 @@
+global:
+  message: Welcome to Mampe's e-commerce site 
+logging:
+  level:
+    root: INFO
+managment:
+  endpoint:
+    web:
+      exposure:
+        include: health, info, refresh
+  endpoint:
+    health:
+      show-details: always
