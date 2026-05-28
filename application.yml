@@ -4,7 +4,7 @@ logging:
   level:
     root: INFO
 managment:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: health, info, refresh
