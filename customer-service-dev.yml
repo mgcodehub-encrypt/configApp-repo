@@ -1,0 +1,17 @@
+global:
+  message: Welcome to dev cutomer service
+server:
+  port: 8081
+message: Dev cutomer service
+spring:
+  application:
+    name: customer-service-dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer_dev
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql : true
+ 
