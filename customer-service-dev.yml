@@ -1,7 +1,5 @@
 global:
   message: Welcome to dev cutomer service
-server:
-  port: 8081
 message: Dev cutomer service
 spring:
   application:
