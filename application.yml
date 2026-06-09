@@ -1,5 +1,5 @@
 global:
-  message: Welcome to Mampe's e-commerce site 
+  message: Welcome to Mampe's e-commerce site new
 logging:
   level:
     root: INFO
